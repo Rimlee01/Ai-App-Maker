@@ -1,0 +1,87 @@
+- Initial setup of the Application 
+    - Next js setup
+    - sadcn integration
+    - dark mode integration
+    - git repositry creation and setup 
+    
+- Ui creation 
+    - Header (logo, signin, signup)
+    - Hero (Description, text area to take input etc)
+    - Message Context to make data available through the whole app.
+    - setup of input box and suggestion mechanisms.
+
+- Authentication setup
+    - userDetailContext creation
+    - Sign In dialog box integration
+    - React OAuth2 | Google integration
+    - google Oauth2 id generation and setup.
+
+- Backend using Convex
+    - convex integration
+    - ConvexClientProvider setup
+    - makeing user model
+    - schema creation 
+    - function creation
+
+- creation of workspace (Initial setup and routing)
+    - added workspace schema into schema.js
+    - created workspace model and function
+    - setup dynamic router to the workspace page..
+
+- creation of diff views in workspace
+    - CHAT VIEW created to view the user profiel and query
+    - CODE VIEW to preview the generated code of the user.
+    - modified header to view login options only when users are not available.
+    - added funciton in workspace schema 
+
+- Gemini Ai integration
+    - google ai api key created
+    - created api routes for ai
+    - Ai model created
+    - edited messages Context.
+    - funciton to update chat messages created
+    - added no tailwind scrollbar-hide
+    - also integrated react-Markdown to view chats more attractivily.
+
+
+
+- Code Editor & preview
+    - integrated Sandpack Libary
+    - added some dependencies in the code editor inside code view
+    - formated the preview and code tabs
+    - integrated Tailwind css cdn.
+
+
+- Project Code Generation with AI
+    - created gen-ai-code api endpoint.
+    - function to generate code.
+    - edited workspace and added funciton to store generated code to the DB.
+    - generation history configuration. 
+    - added loading screen while code is generated.
+    - setup Initial loading to db so that the saved code id fetched from DB. (page reloading)
+    
+
+- Sidebar creation
+    - side bar added
+    - side bar configuration
+    - WorkspaceHistory component created.
+    - all ui part done, functionallity in progress..
+
+- tokenization
+    - added token field to the user table.
+    - gave default tokens to the users 50000
+    - created a function to create token and exported it to use elsewhere too..
+    - setup updatetoken mutation and mechanism.
+    - updating tokens to the database.
+    - implemented same mechanism in the code view also..
+
+
+
+- export and deploy
+    - created ui buttons for export and deploy.
+    - created functionallity.
+    
+    
+    
+
+
